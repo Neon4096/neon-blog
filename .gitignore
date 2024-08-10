@@ -1,0 +1,13 @@
+.vscode
+node_modules
+dist
+dist-dev
+build
+cache
+.cache
+.temp
+.tmp
+*.log
+package-lock.json
+.env.local
+.env.*.local
