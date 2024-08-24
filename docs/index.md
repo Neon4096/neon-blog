@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: 内容
       link: /content/content_index
-    - theme: alt
-      text: Examples
-      link: /examples/api-examples
 
 features:
   - title: 小运维一名

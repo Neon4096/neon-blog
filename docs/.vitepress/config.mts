@@ -23,13 +23,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'API Examples', link: '/examples/api-examples' },
-          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-        ]
-      },
-      {
         text: 'OPNSense',
         items: [
           { text: 'OPNSense介绍', link: '/content/opnsense/opnsense_index' },
