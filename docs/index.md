@@ -15,6 +15,6 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: 学习Cloudflare KV
+    details: OPNSense清理日志
 ---
 

@@ -26,6 +26,7 @@ export default defineConfig({
         text: 'OPNSense',
         items: [
           { text: 'OPNSense介绍', link: '/content/opnsense/opnsense_index' },
+          { text: '清理日志', link: '/content/opnsense/opnsense_clear_local_log_file' }
         ]
       },
       {
