@@ -47,7 +47,7 @@ export default defineConfig({
         {
           text: 'Vitepress',
           items: [
-            { text: '修复cf page最近更新时间显示错误', link: '/' },
+            { text: '修复Cf Page部署后lastUpdated显示错误', link: '/miscellaneous/vitepress/vitepress_fix_cloudflare_page_lastUpdated_display_error' },
           ]
         }
       ]
