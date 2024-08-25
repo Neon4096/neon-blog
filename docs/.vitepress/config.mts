@@ -56,6 +56,15 @@ export default defineConfig({
       provider: 'local'
     },
     
+    lastUpdated: {
+      text: 'Last updated',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'short',
+        hourCycle: 'h24'
+      }
+    },
+
     i18nRouting: false,
   }
 })
