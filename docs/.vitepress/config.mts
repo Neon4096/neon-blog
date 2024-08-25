@@ -11,37 +11,47 @@ export default defineConfig({
       { 
         text: '分类',
         items: [
-          { text: 'OPNSense', link: '/content/opnsense/opnsense_index' },
-          { text: 'AdGuard Home', link: '/content/adguardhome/adguardhome_index' },
-          { text: 'Cloudflare', link: '/content/cloudflare/cloudflare_kv' }
+          { text: 'OPNSense', link: '/categories/opnsense/opnsense_index' },
+          { text: 'AdGuard Home', link: '/categories/adguardhome/adguardhome_index' },
+          { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' }
         ]
       },
       { text: '标签', link: '/'},
       { text: '工具', link: '/'},
-      { text: '杂七杂八', link: '/'},
+      { text: '杂七杂八', link: '/miscellaneous/miscellaneous_index'},
     ],
 
-    sidebar: [
-      {
-        text: 'OPNSense',
-        items: [
-          { text: 'OPNSense介绍', link: '/content/opnsense/opnsense_index' },
-          { text: '清理日志', link: '/content/opnsense/opnsense_clear_local_log_file' }
-        ]
-      },
-      {
-        text: 'Adguradhome',
-        items: [
-          { text: 'Adguradhome介绍', link: '/content/adguardhome/adguardhome_index' },
-        ]
-      },
-      {
-        text: 'Cloudflare',
-        items: [
-          { text: 'Cloudflare KV', link: '/content/cloudflare/cloudflare_kv' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/categories/': [
+        {
+          text: 'OPNSense',
+          items: [
+            { text: 'OPNSense介绍', link: '/categories/opnsense/opnsense_index' },
+            { text: '清理日志', link: '/categories/opnsense/opnsense_clear_local_log_file' }
+          ]
+        },
+        {
+          text: 'Adguradhome',
+          items: [
+            { text: 'Adguradhome介绍', link: '/categories/adguardhome/adguardhome_index' },
+          ]
+        },
+        {
+          text: 'Cloudflare',
+          items: [
+            { text: 'Cloudflare KV', link: '/categories/cloudflare/cloudflare_kv' },
+          ]
+        }
+      ],
+      '/miscellaneous/': [
+        {
+          text: 'Vitepress',
+          items: [
+            { text: '修复cf page最近更新时间显示错误', link: '/' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/neon4096' }
