@@ -1,12 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Neon's blog",
   description: "A VitePress Site",
   lastUpdated: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { 
         text: '分类',
@@ -16,8 +14,8 @@ export default defineConfig({
           { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' }
         ]
       },
-      { text: '标签', link: '/'},
-      { text: '工具', link: '/'},
+      { text: '🚫标签', link: ''},
+      { text: '🚫工具', link: ''},
       { text: '杂七杂八', link: '/miscellaneous/miscellaneous_index'},
     ],
 
@@ -76,5 +74,10 @@ export default defineConfig({
     },
 
     i18nRouting: false,
+  },
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
   }
 })
