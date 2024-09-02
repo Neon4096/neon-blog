@@ -43,9 +43,9 @@ export default defineConfig({
       ],
       '/miscellaneous/': [
         {
-          text: 'Vitepress',
+          text: '杂七杂八',
           items: [
-            { text: '修复Cf Page部署后lastUpdated显示错误', link: '/miscellaneous/vitepress/vitepress_fix_cloudflare_page_lastUpdated_display_error' },
+            { text: '修复Cf Page部署后lastUpdated显示错误', link: '/miscellaneous/vitepress_fix_cloudflare_page_lastUpdated_display_error' },
           ]
         }
       ]
