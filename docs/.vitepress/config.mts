@@ -46,6 +46,7 @@ export default defineConfig({
           text: '杂七杂八',
           items: [
             { text: '修复Cf Page部署后lastUpdated显示错误', link: '/miscellaneous/vitepress_fix_cloudflare_page_lastUpdated_display_error' },
+            { text: 'Oneplus 8T安装LineageOS21', link: '/miscellaneous/oneplus_8t_install_lineageos_21' },
           ]
         }
       ]
