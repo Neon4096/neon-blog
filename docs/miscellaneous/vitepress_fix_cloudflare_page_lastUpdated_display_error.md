@@ -28,6 +28,6 @@ layout: doc
 
 > 我在Page编译时，还遇到了找不到dist的报错，又修改了Path为`docs`
 
-![图](../images/vitepress_lastUpdated_error.png)
+![图](/miscellaneous/images/vitepress_lastUpdated_error.png)
 
 编译通过，完成！
