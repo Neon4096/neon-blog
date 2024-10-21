@@ -6,6 +6,6 @@
     "docs:cfpagebuild": "git fetch --unshallow && vitepress build docs"
   },
   "devDependencies": {
-    "vitepress": "^1.3.2"
+    "vitepress": "^1.4.1"
   }
 }
