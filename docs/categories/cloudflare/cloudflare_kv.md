@@ -15,8 +15,8 @@ layout: doc
 
 - `npm create cloudflare@latest kv-tutorial`
 - 按图中选项选择
-  - ![cloudflare-kv-1](/image/cloudflare_image/cloudflare-kv-1.jpg)
-  - ![cloudflare-kv-2](/image/cloudflare_image/cloudflare-kv-2.jpg)
+  - ![cloudflare-kv-1](images/cloudflare/cloudflare_kv_1.jpg)
+  - ![cloudflare-kv-2](images/cloudflare/cloudflare_kv_2.jpg)
 
 ## 创建KV namespace
 
