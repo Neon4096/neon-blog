@@ -15,7 +15,7 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: Oneplus 8T安装LineageOS 21
-    link: /miscellaneous/oneplus_8t_install_lineageos_21
+    details: 修复Cf Page部署后图片路径的错误
+    link: /miscellaneous/vitepress_fix_cloudflare_page_static_file_error
 ---
 
