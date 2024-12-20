@@ -81,4 +81,5 @@ export default defineConfig({
       lazyLoading: true
     }
   }
+  
 })
