@@ -15,7 +15,7 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: 修复Cf Page部署后图片路径的错误
-    link: /miscellaneous/vitepress_fix_cloudflare_page_static_file_error
+    details: 迁移MSSQL 2008R2数据库到MSSQL 2017
+    link: /miscellaneous/migrating_mssql_2008r2_database_to_mssql_2017
 ---
 
