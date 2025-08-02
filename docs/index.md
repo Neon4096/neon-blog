@@ -15,7 +15,7 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: 迁移MSSQL 2008R2数据库到MSSQL 2017
-    link: /miscellaneous/migrating_mssql_2008r2_database_to_mssql_2017
+    details: Podman pod搭建Prometheus+Grafana
+    link: /categories/ops/set_up_prometheus_and_grafana_using_podman_pod
 ---
 

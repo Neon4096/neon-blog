@@ -11,7 +11,8 @@ export default defineConfig({
         items: [
           { text: 'OPNSense', link: '/categories/opnsense/opnsense_index' },
           { text: 'AdGuard Home', link: '/categories/adguardhome/adguardhome_index' },
-          { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' }
+          { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' },
+          { text: 'Ops', link: '/categories/ops/ops_index' }
         ]
       },
       { text: '🚫标签', link: '' },
@@ -39,6 +40,13 @@ export default defineConfig({
           items: [
             { text: 'Cloudflare KV', link: '/categories/cloudflare/cloudflare_kv' },
           ]
+        },
+        {
+          text: 'Ops',
+          items: [
+            { text: 'Ops', link: '/categories/ops/ops_index' },
+            { text: 'Podman pod搭建Prometheus+Grafana', link: '/categories/ops/set_up_prometheus_and_grafana_using_podman_pod' }
+          ]
         }
       ],
       '/miscellaneous/': [
@@ -59,7 +67,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '网站访问次数:-1' + '<br>Released under the MIT License.',
+      message: '网站访问次数:还~没~做~' + '<br>Released under the MIT License.',
       copyright: 'Copyright © 2024-present <a href="https://github.com/neon4096">Neon Pan</a>',
     },
 
