@@ -26,7 +26,8 @@ export default defineConfig({
           text: 'OPNSense',
           items: [
             { text: 'OPNSense介绍', link: '/categories/opnsense/opnsense_index' },
-            { text: '清理日志', link: '/categories/opnsense/opnsense_clear_local_log_file' }
+            { text: '清理日志', link: '/categories/opnsense/opnsense_clear_local_log_file' },
+            { text: 'ISC DHCP迁移到Dnsmasq', link: '/categories/opnsense/opnsense_migrate_isc_dhcp_to_dnsmasq' }
           ]
         },
         {

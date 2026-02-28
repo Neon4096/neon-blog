@@ -15,7 +15,7 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: Podman pod搭建Prometheus+Grafana
-    link: /categories/ops/set_up_prometheus_and_grafana_using_podman_pod
+    details: OPNsense 从 ISC DHCP 迁移到 Dnsmasq DNS&DHCP
+    link: /categories/opnsense/opnsense_migrate_isc_dhcp_to_dnsmasq
 ---
 
