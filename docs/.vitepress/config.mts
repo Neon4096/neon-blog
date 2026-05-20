@@ -57,7 +57,8 @@ export default defineConfig({
             { text: '修复Cf Page部署后lastUpdated显示错误', link: '/miscellaneous/vitepress_fix_cloudflare_page_lastUpdated_display_error' },
             { text: 'Oneplus 8T安装LineageOS21', link: '/miscellaneous/oneplus_8t_install_lineageos_21' },
             { text: '修复Cf Page部署后图片路径的错误', link: '/miscellaneous/vitepress_fix_cloudflare_page_static_file_error.md' },
-            { text: '迁移MSSQL 2008R2数据库到MSSQL 2017', link: '/miscellaneous/migrating_mssql_2008r2_database_to_mssql_2017.md' }
+            { text: '迁移MSSQL 2008R2数据库到MSSQL 2017', link: '/miscellaneous/migrating_mssql_2008r2_database_to_mssql_2017.md' },
+            { text: 'Dify 1.14.2安装插件报错', link: '/miscellaneous/dify_1142_install_plugin_error.md' }  
           ]
         }
       ]
