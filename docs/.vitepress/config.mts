@@ -10,9 +10,9 @@ export default defineConfig({
         text: '分类',
         items: [
           { text: 'OPNSense', link: '/categories/opnsense/opnsense_index' },
-          { text: 'AdGuard Home', link: '/categories/adguardhome/adguardhome_index' },
+          { text: 'AdGuard Home', link: '/' },
           { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' },
-          { text: 'Ops', link: '/categories/ops/ops_index' }
+          { text: 'Ops', link: '/categories/ops/set_up_prometheus_and_grafana_using_podman_pod' }
         ]
       },
       { text: '🚫标签', link: '' },
@@ -31,10 +31,8 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Adguradhome',
-          items: [
-            { text: 'Adguradhome介绍', link: '/categories/adguardhome/adguardhome_index' },
-          ]
+          text: 'AdGuard Home',
+          items: []
         },
         {
           text: 'Cloudflare',
@@ -45,7 +43,6 @@ export default defineConfig({
         {
           text: 'Ops',
           items: [
-            { text: 'Ops', link: '/categories/ops/ops_index' },
             { text: 'Podman pod搭建Prometheus+Grafana', link: '/categories/ops/set_up_prometheus_and_grafana_using_podman_pod' }
           ]
         }
