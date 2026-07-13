@@ -4,6 +4,13 @@ export default defineConfig({
   title: "Neon's blog",
   description: "A VitePress Site",
   lastUpdated: true,
+  head: [
+    ['script', {
+      defer: 'true',
+      src: 'https://cloud.umami.is/script.js',
+      'data-website-id': '2364fbfb-1a04-4186-be1e-ad683c5df042'
+    }]
+  ],
   themeConfig: {
     nav: [
       {
@@ -66,7 +73,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '网站访问次数:还~没~做~' + '<br>Released under the MIT License.',
+      message: '网站访问次数: <span id="site-pv">-</span> PV / <span id="site-uv">-</span> UV<br>Released under the MIT License.',
       copyright: 'Copyright © 2024-present <a href="https://github.com/neon4096">Neon Pan</a>',
     },
 
