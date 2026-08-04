@@ -17,7 +17,7 @@ export default defineConfig({
         text: '分类',
         items: [
           { text: 'OPNSense', link: '/categories/opnsense/opnsense_index' },
-          { text: 'AdGuard Home', link: '/' },
+          { text: 'AdGuard Home', link: '/categories/adguardhome/oxidns_lan_dns_routing.md' },
           { text: 'Cloudflare', link: '/categories/cloudflare/cloudflare_kv' },
           { text: 'Ops', link: '/categories/ops/set_up_prometheus_and_grafana_using_podman_pod' }
         ]
@@ -39,7 +39,9 @@ export default defineConfig({
         },
         {
           text: 'AdGuard Home',
-          items: []
+          items: [
+            { text: 'OxiDNS实现局域网的DNS分流', link: '/categories/adguardhome/oxidns_lan_dns_routing.md' }
+          ]
         },
         {
           text: 'Cloudflare',
