@@ -15,7 +15,7 @@ features:
   - title: 小运维一名
     details: 啥啥都不会，啥啥都要学
   - title: 最近更新：
-    details: AdGuard Home+OxiDNS实现局域网的DNS分流
-    link: /categories/adguardhome/oxidns_lan_dns_routing
+    details: OPNSense配置公网IPv6及遇到的RA冲突问题
+    link: /categories/opnsense/opnsense_ipv6_dnsmasq_ra_conflict
 ---
 

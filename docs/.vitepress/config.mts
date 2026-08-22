@@ -34,7 +34,8 @@ export default defineConfig({
           items: [
             { text: 'OPNSense介绍', link: '/categories/opnsense/opnsense_index' },
             { text: '清理日志', link: '/categories/opnsense/opnsense_clear_local_log_file' },
-            { text: 'ISC DHCP迁移到Dnsmasq', link: '/categories/opnsense/opnsense_migrate_isc_dhcp_to_dnsmasq' }
+            { text: 'ISC DHCP迁移到Dnsmasq', link: '/categories/opnsense/opnsense_migrate_isc_dhcp_to_dnsmasq' },
+            { text: '配置公网IPv6及遇到的RA冲突问题', link: '/categories/opnsense/opnsense_ipv6_dnsmasq_ra_conflict' }
           ]
         },
         {
